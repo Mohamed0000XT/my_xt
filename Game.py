@@ -6,10 +6,12 @@ hieght=600
 size=20
 score=0
 speed=100
+# you have to be smart
 food_color="red"
 snake_color="blue"
 w=Tk()
-# hi i just want to help 
+# hi i just want to help
+# here we want to change the color 
 label=Label(w,text="SCORE :{}".format(score),font=("consolas",40))
 label.pack(side="top")
 canvas=Canvas(w,background="black",width=width,height=hieght)

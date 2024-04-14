@@ -9,7 +9,7 @@ speed=100
 food_color="red"
 snake_color="blue"
 w=Tk()
-
+# hi i just want to help 
 label=Label(w,text="SCORE :{}".format(score),font=("consolas",40))
 label.pack(side="top")
 canvas=Canvas(w,background="black",width=width,height=hieght)
